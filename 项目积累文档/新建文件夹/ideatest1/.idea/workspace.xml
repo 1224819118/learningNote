@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ea67b42-215e-49eb-8cb3-77615a9b510e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UPJZhKwlsqvMKwCKzxiPBoVo3h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\新建文件夹\ideatest1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.checkTest">
+    <configuration name="checkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotiation.checkTest" />
+      <module name="ideatest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotiation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reflectTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect.reflectTest1" />
+      <module name="ideatest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reflectTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect.reflectTest3" />
+      <module name="ideatest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reflectTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflect.reflectTest4" />
+      <module name="ideatest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotiation.test1" />
+      <module name="ideatest1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotiation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50693" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.92" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_ideatest1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50697" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50699" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.checkTest" />
+      <item itemvalue="Application.reflectTest1" />
+      <item itemvalue="Application.reflectTest3" />
+      <item itemvalue="Application.reflectTest4" />
+      <item itemvalue="Application.test1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.checkTest" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.reflectTest1" />
+        <item itemvalue="Application.reflectTest4" />
+        <item itemvalue="Application.reflectTest3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ea67b42-215e-49eb-8cb3-77615a9b510e" name="Default Changelist" comment="" />
+      <created>1575252355589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575252355589</updated>
+      <workItem from="1575252364344" duration="186000" />
+      <workItem from="1575547569459" duration="1166000" />
+      <workItem from="1576456044086" duration="1285000" />
+      <workItem from="1576488403082" duration="2921000" />
+      <workItem from="1576497525971" duration="884000" />
+      <workItem from="1576504412301" duration="1426000" />
+      <workItem from="1576564840675" duration="2675000" />
+      <workItem from="1576579538473" duration="3518000" />
+      <workItem from="1577065343639" duration="880000" />
+      <workItem from="1577759036989" duration="670000" />
+      <workItem from="1579656485129" duration="22000" />
+      <workItem from="1579656554274" duration="62000" />
+      <workItem from="1579657370354" duration="12000" />
+      <workItem from="1579657887065" duration="1625000" />
+      <workItem from="1579659659370" duration="499000" />
+      <workItem from="1579660268197" duration="10896000" />
+      <workItem from="1579765030014" duration="5601000" />
+      <workItem from="1579770787588" duration="141000" />
+      <workItem from="1580108090854" duration="868000" />
+      <workItem from="1580185160476" duration="5471000" />
+      <workItem from="1580201821957" duration="4355000" />
+      <workItem from="1580278232816" duration="8576000" />
+      <workItem from="1580352115316" duration="7371000" />
+      <workItem from="1580378150127" duration="1109000" />
+      <workItem from="1580445392476" duration="9247000" />
+      <workItem from="1580528108691" duration="20774000" />
+      <workItem from="1580559549442" duration="603000" />
+      <workItem from="1580607694089" duration="865000" />
+      <workItem from="1580711694024" duration="98000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="584" y="73" key="#Tomcat_Server" timestamp="1580609773509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="73" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1580609773509" />
+    <state x="447" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580609776789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580609776789" />
+    <state x="566" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1580544383352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580544383352" />
+    <state x="583" y="73" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1580609774825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="73" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1580609774825" />
+    <state x="499" y="162" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580360036983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580360036983" />
+    <state x="772" y="155" key="FileChooserDialogImpl" timestamp="1580609771728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="772" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580609771728" />
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom" timestamp="1580559404402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580559404402" />
+    <state width="1493" height="132" key="GridCell.Tab.0.center" timestamp="1580559404402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580559404402" />
+    <state width="1493" height="132" key="GridCell.Tab.0.left" timestamp="1580559404402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580559404402" />
+    <state width="1493" height="132" key="GridCell.Tab.0.right" timestamp="1580559404402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="132" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580559404402" />
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom" timestamp="1579681297974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579681297974" />
+    <state width="1342" height="242" key="GridCell.Tab.1.center" timestamp="1579681297974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579681297974" />
+    <state width="1342" height="242" key="GridCell.Tab.1.left" timestamp="1579681297974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579681297974" />
+    <state width="1342" height="242" key="GridCell.Tab.1.right" timestamp="1579681297974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="242" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579681297974" />
+    <state x="264" y="61" key="SettingsEditor" timestamp="1579658159355">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="264" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579658159355" />
+    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1580378601865">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1580378601865" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1580609601897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580609601897" />
+    <state x="170" y="33" key="new project wizard" timestamp="1580609915492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="170" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580609915492" />
+    <state x="422" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580554001235">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="422" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580554001235" />
+  </component>
+</project>

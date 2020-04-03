@@ -1,0 +1,5 @@
+出现了InvocationTargetException异常
+异常的信息是：null
+----------------------------------出现了InvocationTargetException异常
+异常的信息是：/ by zero
+----------------------------------总共出现了2次异常
