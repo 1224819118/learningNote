@@ -1,6 +1,6 @@
 # 网络io流程
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\网络io流程.png)
+![](image\网络io流程.png)
 
 **同步**：同步的概念就是在我等待服务端的处理中我只能在这等着不能继续执行下面的代码举一个例子，就是a向b借钱a在找钱的过程中，b只能在a家里等着b把钱都给准备好才能拿钱走人
 
@@ -14,15 +14,15 @@
 
 bio模型图
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\阻塞io模型图.PNG)
+![](image\阻塞io模型图.PNG)
 
 非阻塞io模型图
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\非阻塞io模型图.PNG)
+![](image\非阻塞io模型图.PNG)
 
 newio模型图
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\newio模型图.PNG)
+![](image\newio模型图.PNG)
 
 # 源码编写
 

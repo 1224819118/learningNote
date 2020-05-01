@@ -69,7 +69,7 @@ allocate设置的是将缓冲区建立在堆中也就是jvm的内存中而ByteBu
 
 # 通道java.nio.channel
 
-![通道内存图](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\通道内存图.PNG)
+![通道内存图](image\通道内存图.PNG)
 
 ```Java
 import sun.dc.pr.PathStroker;
@@ -209,7 +209,7 @@ public class testt {
 
 # nio阻塞式与非阻塞网络通信
 
-![nio非阻塞模式](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\nio非阻塞模式.PNG)
+![nio非阻塞模式](image\nio非阻塞模式.PNG)
 
 nio的阻塞式
 
