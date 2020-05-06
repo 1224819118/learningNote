@@ -392,3 +392,25 @@ container模式：使用--net =container指定这个模式，
 ENTRYPOINT MYSQL_ROOT_PASSWORD=123456这句话
 
 还有就是最好用之前学的数据卷来完成数据的共享否则这个容器停止了那数据就没了
+
+**docker 安装Nginx** 
+
+首先拉取一个nginx镜像
+
+docker pull nginx:1.18.0
+
+之后我们运行这个镜像让他变成一个容器
+
+这边我们可以选择直接运行也可以进行配置文件的挂载
+
+我这里由于没有事先准备nginx配置文件所以我打算到容器内去配置这些文件
+
+docker exec -it nginx bash
+
+nginx.conf配置文件在 /etc/nginx/ 下面，但是你使用vim nginx.conf 或者vi nginx.conf
+
+会发现vi或者vim命令没有用，解决办法：apt-get update 完成之后 apt-get install vim
+
+安装好了vim之后就可以进去配置具体的信息了
+
+这一部分在nginx的笔记中写了
