@@ -83,3 +83,153 @@ fi
 
 ```
 
+[表达式] && echo true || echo false
+
+-eq 相等 -ne 不等 -gt 大于 -lt小于
+
+-ge 大于等于 -le小于等于
+
+比较推荐用[]
+
+1.if[]
+
+then
+
+
+
+else
+
+
+
+Fi
+
+2.if[]
+
+then
+
+
+
+elif
+
+then
+
+
+
+else
+
+
+
+fi
+
+实现一个模拟脚本
+
+```
+#!/bin/bash
+echo 1.install jdk
+echo 2.install mysql
+echo 3.exit
+read -p "pls input the num you want" index
+if [ "$index" == "1" ]
+ then
+touch 1.sh
+echo "echo jdk is install" > 1.sh
+bash 1.sh
+elif [ "$index" == "2" ]
+ then
+touch 2.sh
+echo "echo mysql is installed" > 2.sh
+bash 2.sh
+elif [ "$index" == "3" ]
+ then
+exit 1
+fi
+~
+```
+
+### 循环语句
+
+```
+while true
+do
+        uptime
+        sleep 2
+done
+```
+
+循环输出到控制台
+
+```
+#!/bin/bash
+i=5
+while [ $i -gt 0 ]
+do
+        echo $i
+        ((i-=1))
+done
+```
+
+循环自减5次并输出到控制台
+
+```
+#!/bin/bash
+i=100
+sum=0
+while [ $i -gt 0 ]
+do
+        ((sum+=i))
+        ((i=i-1))
+done
+echo $sum
+```
+
+输出1到100的累加和
+
+For 语句
+
+For var in list 
+
+do 
+
+....
+
+done
+
+```
+#!/bin/bash
+for num in {1..20}
+do
+        echo $num
+done
+```
+
+循环输出1到20
+
+```
+#!/bin/bash
+for x in `seq 9`
+do
+        for y in `seq 9`
+        do
+                echo -n $((x*y))
+                echo -n "  "
+        done
+        echo " "
+done
+```
+
+输出99乘法表  其中·seq 9·表示是从1到9的数组
+
+其中 echo -n 是表示不换行
+
+还有-e是表示转义这里没有用到
+
+
+
+#!/bin/bash
+for filename in *.txt
+do
+        mv $filename $(echo $filename | cut -d . -f 1).doc;
+done
+$$
+
+$$
