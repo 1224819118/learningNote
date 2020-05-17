@@ -86,17 +86,17 @@ Reactor三种版本
 
 Thread-Per-Connection模式：
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\BIOReactor模式图.PNG)
+![](../java高级课程学习笔记\image\BIOReactor模式图.PNG)
 
  从上面可以看到这种模式每次处理请求就占用线程并且read/send都是阻塞操作。想要扩大规模就必须增加线程或者使用线程池。
 
  Reactor模式：
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\Reactor单线程模式图.PNG)
+![](../java高级课程学习笔记\image\Reactor单线程模式图.PNG)
 
 上面可以看到这个模式所有的操作都给一个线程去做，这肯定是不合理的，那么第一个想到的解决方法一定是增多了线程的数量
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\reactor多线程模式.PNG)
+![](../java高级课程学习笔记\image\reactor多线程模式.PNG)
 
 这个模式就是认为处理里面的一些工作十分耗时所有将他们单独拿出来放到一个工作线程池里去处理
 
@@ -262,7 +262,7 @@ netty的技巧
 
 ## 3.1 源码剖析：启动服务
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\netty启动主线.PNG)
+![](../java高级课程学习笔记\image\netty启动主线.PNG)
 
 知识点：
 
@@ -310,7 +310,7 @@ workthread
 
 ## 4.1 编写网络应用程序的基本步骤
 
-![](F:\opensource\学习积累\学习笔记\java进阶学习\java高级课程学习笔记\image\编写网络程序流程.PNG)
+![](../java高级课程学习笔记\image\编写网络程序流程.PNG)
 
 
 

@@ -230,6 +230,90 @@ for filename in *.txt
 do
         mv $filename $(echo $filename | cut -d . -f 1).doc;
 done
+
+输出当前文件夹下文件和目录的个数
+
+```
+caohao@caohaodeMacBook-Pro test % vi a.sh
+#!/bin/bash
+filenum=0
+dirnum=0
+
+for i in $( ls )
+do
+   if [ -d $i ]
+   then
+      ((dirnum += 1))
+   else
+      ((filenum += 1))
+   fi
+done
+
+echo "$dirnum"
+echo "$filenum"
+```
+
+
+
+查看用户个数
+
+```
+#!/bin/bash
+file="/etc/passwd"
+LINES=`wc -l $file | cut -d" " -f1`
+for I in `seq 1 $LINES`;do
+userid=`head -$I $file | tail -1 |cut -d: -f3`
+username=`head -$I $file | tail -1 |cut -d: -f1`
+echo "hello $username,your UID is $userid"
+done
+echo "there are $LINES users"
+```
+
+我们需要建立m1.txt，m2.txt。。。。。m9.txt，我们希望把这些文件移动新的文件夹，m1/m1.txt，m2/m2.txt touch mv
+
+```
+#!/bin/bash
+touch m{1..9}.txt
+mkdir m{1..9}
+for i in `seq 1 9`;
+do
+        mv m${i}.txt m${i}
+done
+~
+~
+```
+
+
 $$
 
 $$
+
+## Linux c环境编程
+
+c语言是Linux的核心语言
+
+通过gcc [opation] filename编译c文件
+
+1. 预处理
+2. 编译-》汇编文件
+3. 汇编-〉目标文件
+4. 连接-》可执行文件
+
+预处理的选项 -E
+
+编译成汇编文件 -S
+
+编译成目标文件 -C
+
+编译成可执行文件 gcc -o hello 1.c 
+
+下面写一个计算两个数字和的代码按照上面的步骤编译下来
+
+![](img/gccsum.png)
+
+![](img/gcc编译流程.png)
+
+gcc  sum.o -o sum 编译为可执行文件sum
+
+./sum运行可执行文件
+
